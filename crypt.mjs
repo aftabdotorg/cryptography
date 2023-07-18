@@ -24,7 +24,7 @@ function decrypt(text) {
   return decrypted.toString();
 }
 
-let output = encrypt('aftab');
+let output = encrypt('testing');
 console.log(output);
 
 console.log(decrypt(output));
